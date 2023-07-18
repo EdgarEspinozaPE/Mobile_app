@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorWhite"
+    tools:context=".MiCodeKeyActivity">
+
+    <EditText
+    android:id="@+id/editTextText2"
+    android:layout_width="470dp"
+    android:layout_height="69dp"
+    android:background="@color/colorGreen"
+    android:ems="10"
+    android:inputType="text"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toTopOf="parent"/>
+
+    <ImageView
+    android:id="@+id/imageView2"
+    android:layout_width="295dp"
+    android:layout_height="191dp"
+    android:src="@drawable/img_cel"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toTopOf="parent"
+    app:layout_constraintVertical_bias="0.214"/>
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="97dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="40dp"
+        android:text="CELULAR DE"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView2" />
+
+    <TextView
+        android:id="@+id/editkeyusername"
+        android:layout_width="125dp"
+        android:layout_height="24dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="40dp"
+        android:text=""
+        android:textAlignment="viewStart"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toEndOf="@+id/textView1"
+        app:layout_constraintTop_toBottomOf="@+id/imageView2" />
+
+    <ImageView
+    android:id="@+id/imageView3"
+    android:layout_width="25dp"
+    android:layout_height="20dp"
+    android:layout_marginStart="16dp"
+    android:layout_marginTop="36dp"
+    android:src="@drawable/icon_1"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toBottomOf="@+id/textView1"/>
+
+    <TextView
+    android:id="@+id/editkeymodel"
+    android:layout_width="93dp"
+    android:layout_height="20dp"
+    android:layout_marginTop="36dp"
+    android:text="IPHONE 8"
+    android:textAlignment="viewStart"
+    android:textColor="@color/black"
+    app:layout_constraintStart_toEndOf="@+id/imageView3"
+    app:layout_constraintTop_toBottomOf="@+id/textView1"/>
+
+    <ImageView
+    android:id="@+id/imageView4"
+    android:layout_width="23dp"
+    android:layout_height="20dp"
+    android:layout_marginTop="36dp"
+    android:src="@drawable/icon_2"
+    app:layout_constraintStart_toEndOf="@+id/editkeymodel"
+    app:layout_constraintTop_toBottomOf="@+id/textView1"/>
+
+    <TextView
+    android:id="@+id/editkeyyear"
+    android:layout_width="93dp"
+    android:layout_height="20dp"
+    android:layout_marginTop="36dp"
+    android:text="2020"
+    android:textAlignment="viewStart"
+    android:textColor="@color/black"
+    app:layout_constraintStart_toEndOf="@+id/imageView4"
+    app:layout_constraintTop_toBottomOf="@+id/editkeyusername"/>
+
+    <ImageView
+    android:id="@+id/imageView5"
+    android:layout_width="21dp"
+    android:layout_height="21dp"
+    android:layout_marginStart="4dp"
+    android:layout_marginTop="36dp"
+    android:src="@drawable/language"
+    app:layout_constraintStart_toEndOf="@+id/editkeyyear"
+    app:layout_constraintTop_toBottomOf="@+id/editkeyusername"/>
+
+    <TextView
+    android:id="@+id/editkeyoperadora"
+    android:layout_width="93dp"
+    android:layout_height="20dp"
+    android:layout_marginStart="4dp"
+    android:layout_marginTop="36dp"
+    android:text="CLARO"
+    android:textAlignment="viewStart"
+    android:textColor="@color/black"
+    app:layout_constraintStart_toEndOf="@+id/imageView5"
+    app:layout_constraintTop_toBottomOf="@+id/editkeyusername"/>
+
+    <ImageView
+    android:id="@+id/imageViewstates"
+    android:layout_width="323dp"
+    android:layout_height="119dp"
+    android:layout_marginBottom="84dp"
+    android:src="@drawable/states"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintStart_toStartOf="parent"/>
+
+    <Button
+        android:id="@+id/buttonsave"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/colorGreen"
+        android:text="GUARDAR"
+        android:textColor="@color/colorWhite"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageViewstates"
+        app:layout_constraintVertical_bias="0.555" />
+
+    <TextView
+        android:id="@+id/texttittle"
+        android:layout_width="189dp"
+        android:layout_height="29dp"
+        android:layout_marginTop="24dp"
+        android:text="DISPOSITIVOS"
+        android:textAlignment="center"
+        android:textColor="@color/colorWhite"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/editTextText2" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginBottom="4dp"
+        android:text="CODIFICACIÓN MEDIANTE CODE KEY"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toTopOf="@+id/textView9"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginBottom="28dp"
+        android:text="Clave Única"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toTopOf="@+id/imageViewstates"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/editkeyclave"
+        android:layout_width="65dp"
+        android:layout_height="19dp"
+        android:layout_marginBottom="28dp"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toTopOf="@+id/imageViewstates"
+        app:layout_constraintStart_toEndOf="@+id/textView9" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
